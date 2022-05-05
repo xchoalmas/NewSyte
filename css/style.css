@@ -1,3 +1,49 @@
 body {
   background-image: url('../img/road.jpg');
+  z-index: 1;
+}
+
+.conte {
+  z-index: 2;
+  width: auto;
+  height: 100vh;
+  background-color: silver;
+  opacity: 0.8;
+
+}
+
+.windowSmall {
+  width: 5em;
+  height: 2em;
+  border: 1px solid red;
+  float: right;
+
+}
+
+#hybut, #rubut {
+  float: left;
+  border: 1px solid black;
+  height: 2em-2px;
+  width: 50%-2px;
+}
+
+.info {
+  border: 1px solid red;
+  height: 8em;
+  width: 15em;
+  margin-top: 15em;
+  margin-left: 30em;
+  position: absolute;
+  background-color: white;
+
+}
+
+.autriz {
+  border: 1px solid red;
+  height: 8em;
+  width: 15em;
+  margin-top: 25em;
+  margin-left: 30em;
+  position: absolute;
+  background-color: white;
 }
